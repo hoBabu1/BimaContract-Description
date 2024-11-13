@@ -49,7 +49,7 @@ constructor(address _owner, address _guardian, address _priceFeed, address _feeR
 
 ```
 
-**Description**
+**Description**  
 `Constructor` is just initializing the address of `owner`,`guardian`,`priceFeed`, `startTime` and `feeReceiver`. As well as it is emiting the event when all the parameter is initialized.
 
 </details>
@@ -70,6 +70,7 @@ constructor(address _owner, address _guardian, address _priceFeed, address _feeR
 ```
 
 **Description**
+
 Only `owner` can call this function and set the address of `feeReceiver`.
 
 </details>
@@ -89,6 +90,7 @@ Only `owner` can call this function and set the address of `feeReceiver`.
 ```
 
 **Description**
+
 This function is mainly involved in setting the price feed address. Only `Owner` can call it.
 
 </details>
@@ -109,6 +111,7 @@ This function is mainly involved in setting the price feed address. Only `Owner`
 ```
 
 **Description**
+
 It can be only be called by `Owner`.
 It is used to set the address of guardian.
 
@@ -130,6 +133,7 @@ It is used to set the address of guardian.
 ```
 
 **Description**
+
 Only `Owner` can set it . This function is used to set the address of `guardian`.
 
 </details>
